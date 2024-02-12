@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AR Master Logistics</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="+3143336654"><span class="fa fa-phone"></span>(&nbsp314&nbsp)&nbsp333-6654</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #F5F5F5;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: #000;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="banner">
+    	<div class="opacity_overlay">
+    		<div class="info">
+    			<h2>TRUCK DISPATCH SERVICES</h2>
+    			<h2>strategy of all</h2>
+    			<hr>
+    			<h3>We believe everyone deserves</h3>
+    			<h3>The best service</h3>
+    		</div>
+    		
+    		<div class="secondary_layer">
+    			<div class="container">
+    				<div class="col-md-8 col-sm-6">
+    					<p class="msg">The easiest and quickest way to get your <span>Loads</span></p>
+    					<p class="quote">Get Start now</p>
+    				</div>
+    				<div class="col-md-4 col-sm-6 pull-right">
+    					<a href="contact.html" class="btn"><button type="button">Get Started</button></a>
+    					<a href="contact.html" class="btn"><button type="button">Learn More</button></a>
+    				</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+    </div>
+    
+    
+    <div class="services">
+    	<div class="container">
+    		<h2>Dispatch is a <span id="rotate"></span> for Drivers</h2>
+    		<h3>Dispatching Services! 🌐 Fuel Your Success with FREE Fuel Cards & Quick Factoring Solutions! 💳
+Are you a trucking pro looking to elevate your business to new heights? Look no further! 🚀 Our top-notch dispatching services are here to streamline your operations and boost your profitability!</h3>
+    		
+			<div class="overview">
+			
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/image1.png" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>Business Consultancy</h4>
+						<p>50+ employes with experienced working facility</p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/image2.png" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>Working statistics</h4>
+						<p>4 years of working staright through in AR Master Losgistics</p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/image3.png" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>Company Analysis</h4>
+						<p>Company is growing further day by day</p>
+					</div>
+				
+				</div>
+
+			</div>
+    	</div>
+    </div>
+    
+	<div class="information">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="10000" data-speed="1000"></h3>
+					<span class="counter-text">Loads Booked</span>
+            	</div> 
+            	<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="5000" data-speed="2000"></h3>
+					<span class="counter-text">Average Gross Revenue</span>
+            	</div>   
+            	<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="58" data-speed="1"></h3>
+					<span class="counter-text">Mln Lbs Dispatched</span>
+            	</div> 
+             	<div class="col-md-3 col-sm-3 counter-item">
+					<h3 class="counter-number" data-from="1" data-to="30" data-speed="30"></h3>
+					<span class="counter-text">Dispatched States</span>
+            	</div> 
+            	
+            </div>
+		</div>
+	</div>    
+	
+	
+	<div class="projects">
+		<div class="container">
+		
+			<h3>Projects</h3>
+			<hr>
+			
+			<div class="news">
+			
+				<div class="date">
+					<h4>2019</h4>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-desktop"></span>Started AR Master Logistics </h5>
+									<p>Trying hard to get first driver , Got first Driver than other and other</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-credit-card"></span>Got the fame</h5>
+									<p>It's all about the review of our drivers</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-truck"></span>Best company of USA</h5>
+									<p>Now we deal 100+ driver in USA</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="button">
+					<a href="contact.html" class="btn">View More</a>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="clients">
+		<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="carousel slide clients-carousel" id="clients-slider">
+                    	<div class="carousel-inner">
+                        	<div class="item active">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client1.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client2.jpeg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client3.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client4.jpeg" alt="" />
+                                    	</a>
+                                	</div>
+                            	</div>
+                        	</div>
+                        	<div class="item">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client5.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client6.jpeg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client7.png" alt="" />
+                                   	 	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client8.jpeg" alt="" />
+                                    	</a>
+                                	</div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+        </div>
+	</div>
+	
+	
+	<div class="more-information">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>Why Choose Us</h4>
+					<hr>
+					<p> Efficient Dispatching: Our dedicated team ensures your trucks are always on the move, optimizing routes for maximum efficiency.Route Optimization: Minimize costs and maximize profits with our advanced route optimization tools, taking the guesswork out of planning.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>What We Will Do</h4>
+					<hr>
+					<p>Dispatching Services!Fuel Your Success with FREE Fuel Cards & Quick Factoring Solutions!Are you a trucking pro looking to elevate your business to new heights? Look no further! 🚀 Our top-notch dispatching services are here to streamline your operations and boost your profitability!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="subscribe">
+		<div class="opacity_overlay">
+			<div class="container">
+				<h3>Subscribe</h3>
+				<p>Be the first to hear our latest news</p>
+				
+				<form class="form-subscribe" action="https://api.web3forms.com/submit" method="POST">
+						    <input type="hidden" name="access_key" value="b982b94d-2057-4b9e-a015-75a4df061f99">
+					<div class="input-group">
+						<input type="message" name="message" class="form-input" placeholder="Your Email Address" required>
+						<span class="btn-group">
+							<button class="btn" type="submit">Subscribe</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>AR Master Logistics</h3>
+				<hr>
+				<p>Book Loads,Dispatch Drivers,Complete Carrier Packet,Factoring of loads,NO CONTRACT-NO FORCE DISPATCH</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>Are you a trucking pro looking to elevate your business to new heights? Look no further! 🚀 Our top-notch dispatching services are here to streamline your operations and boost your profitability!</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							117 South Lexington STE 100 Harrisonville, Missouri
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							(314)&nbsp333-6654
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							john.dispatch563@gmail.com
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2019<span>AR Master Logistics</span> All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    <script type="text/javascript">
+    
+    	var terms = ["simple", "business", "beautiful"];
+
+		function rotateTerm() {
+  			var ct = $("#rotate").data("term") || 0;
+  			$("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).fadeIn()
+              	.delay(1000).fadeOut(200, rotateTerm);
+		}
+		$(rotateTerm);
+
+    </script>
+
+    
+	<script type="text/javascript">
+
+  	jQuery('.counter-item').appear(function() {
+    	jQuery('.counter-number').countTo();
+    	jQuery(this).addClass('funcionando');
+   	 	console.log('funcionando');
+  	});
+  
+	</script>
+	
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            $("#clients-slider").carousel({
+                interval: 5000 //TIME IN MILLI SECONDS
+            });
+        });
+        
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+
+</html>
